@@ -1,7 +1,0 @@
-El código tiene como objetivo:
-
-Leer temperatura y humedad de dos sensores DHT11 (interior y exterior).
-
-Activar un LED de alarma y un relé si la temperatura supera un umbral (TEMP_ALARM).
-
-Publicar las lecturas en MQTT, cada sensor en su propio topic.
