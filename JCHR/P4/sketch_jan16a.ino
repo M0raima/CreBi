@@ -232,8 +232,8 @@ void callback(char* topic, byte* payload, unsigned int length) {
 bool executeActuator(const char* act, int value) {
   if (!act) return false;
 
-  // Ejemplo: servo
-  if (strcmp(act, "servo") == 0) {
+  
+  if (strcmp(act, "rele_ventilador") == 0) {
     if (act == "ON") {
       fanState = true;
       controlManual = true;
